@@ -24,7 +24,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      #  
+      # 빌드를 Gradle로 하기
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
